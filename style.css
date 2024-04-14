@@ -1,0 +1,55 @@
+/* Add a style for the search container */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url('Image.JPG');
+    background-size: cover; 
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#search-input {
+    margin-left: 500px;
+    margin-right: 10px; 
+    padding: 10px; 
+    border: 1px solid #333; 
+    font-size: 12px; 
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#search-button {
+    border-radius: 6px;
+    padding: 8px 15px; 
+    font-size: 10px; 
+    background-color: #1e87f0;
+    margin-top: 50px;
+}
+
+#search-button:hover {
+    cursor: pointer;
+    background-color: #0f13ce; 
+}
+.pokemon-item {
+    color: white;
+    width: 23%; 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+}
+
+.pokemon-image {
+    width: 150px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
